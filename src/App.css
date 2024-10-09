@@ -1,0 +1,294 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family:Arial, Helvetica, sans-serif ;
+}
+
+.headersection{
+  display: flex;
+  justify-content: space-between;
+  padding : 10px;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  padding-top: 20px;
+}
+
+.center ul li{
+  list-style: none;
+  display: inline-flex;
+  margin: 0px 10px;
+}
+.left{
+  flex: 2;
+  
+}
+.center{
+  flex : 4;
+}
+
+.right{
+  flex: 4;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 10px;
+}
+.title{
+  font-size: 1rem;
+}
+.bannerbox img{
+  width: 100%;
+
+}
+.bannerbox{
+  margin: 10px 0px;
+}
+
+.menimages {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Dynamic columns */
+  gap: 20px;
+  padding: 20px;
+}
+
+.menimages img {
+  width: 100%; /* This makes sure images fit within the grid items */
+  height: 220px;
+  object-fit: cover;
+}
+
+.ladiesimages{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Dynamic columns */
+  gap: 20px;
+  padding: 20px;
+}
+.ladiesimages img{
+  width: 100%; /* This makes sure images fit within the grid items */
+  height: 220px;
+  object-fit: cover;
+}
+.footer {
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+}
+button {
+  background-color: #007bff; /* Blue background */
+  color: white; /* White text */
+  border: 2px solid transparent; /* Transparent border */
+  border-radius: 25px; /* Fully rounded corners */
+  padding: 10px 30px; /* Spacing around text */
+  font-size: 16px; /* Font size */
+  font-weight: bold; /* Bold text */
+  cursor: pointer; /* Pointer cursor on hover */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  transition: all 0.3s ease; /* Smooth transition for hover effect */
+}
+
+button:hover {
+  background-color: white; /* Change to white background on hover */
+  color: #007bff; /* Change text to blue on hover */
+  border: 2px solid #007bff; /* Blue border */
+}
+
+button:active {
+  background-color: #0056b3; /* Darker blue when clicked */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Slightly reduced shadow */
+  transform: translateY(2px); /* Slight downward movement on click */
+}
+
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer p {
+  margin: 0;
+  color: #333;
+}
+
+.footer-links {
+  margin-top: 10px;
+}
+
+.footer-links a {
+  margin: 0 10px;
+  color: #007BFF;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+.login {
+  background-color: #1400f3; /* Green background */
+  color: white; /* White text */
+  border: none; /* No border */
+  border-radius: 5px; /* Rounded corners */
+  padding: 10px 20px; /* Spacing around text */
+  font-size: 16px; /* Font size */
+  cursor: pointer; /* Pointer cursor on hover */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  transition: background-color 0.3s ease; /* Smooth hover transition */
+}
+.shop{
+  background-color: #1400f3; /* Green background */
+  color: white; /* White text */
+  border: none; /* No border */
+  border-radius: 5px; /* Rounded corners */
+  padding: 10px 20px; /* Spacing around text */
+  font-size: 16px; /* Font size */
+  cursor: pointer; /* Pointer cursor on hover */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  transition: background-color 0.3s ease; /* Smooth hover transition */
+}
+button:hover {
+  background-color: #1c0584; /* Darker green on hover */
+}
+
+button:active {
+  background-color: #1e7e34; /* Even darker when clicked */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Reduced shadow on click */
+  transform: translateY(2px); /* Slight downward movement on click */
+}
+h1 {
+  font-family: 'Roboto', sans-serif; /* Apply the chosen font */
+  /* other styles... */
+  font-size: 48px; /* Large font size for prominence */
+  font-weight: bold; /* Bold text */
+  color: #ffffff; /* White text color for contrast */
+  text-align: center; /* Center the text */
+  margin: 20px 0; /* Margin for spacing */
+  text-transform: uppercase; /* Uppercase letters for impact */
+  letter-spacing: 3px; /* Space between letters */
+  background: linear-gradient(90deg, #6a11cb 0%, #2575fc 100%); /* Gradient background */
+  -webkit-background-clip: text; /* Clip background to text */
+  -webkit-text-fill-color: transparent; /* Fill color transparent for the gradient effect */
+  padding: 20px; /* Padding for some breathing space */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Shadow for depth */
+  animation: fadeIn 1.5s ease-in-out; /* Optional animation */
+}
+
+/* Animation for fading in */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+h1 {
+  font-family: 'Roboto', sans-serif; /* Apply the chosen font */
+  /* other styles... */
+}
+
+
+
+
+.searchbar {
+ 
+  display: flex;
+  justify-content: center; /* Centers the search bar */
+   /* Adds space around the search bar */
+}
+
+
+/* Center the dropdowns and arrange them horizontally */
+.dropdown-center-container {
+  display: flex;
+  justify-content: center; /* Center the dropdowns horizontally */
+  gap: 30px; /* Space between each dropdown */
+  margin: 20px 0; /* Margin for spacing */
+}
+
+/* Styling for the dropdown button (same as before) */
+.dropdown-center .btn {
+  background-color: #007bff; /* Blue background */
+  color: white; /* White text */
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 25px; /* Rounded button */
+  border: none;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.dropdown-center .btn:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2); /* Enhanced shadow */
+}
+
+/* Custom styling for dropdown menu */
+.dropdown-menu {
+  background-color: #f8f9fa; /* Light background */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  padding: 10px;
+  min-width: 200px;
+}
+
+/* Styling for dropdown items */
+.dropdown-menu .dropdown-item {
+  color: #333;
+  font-size: 14px;
+  padding: 10px 15px;
+  transition: background-color 0.3s ease;
+  border-radius: 5px;
+}
+
+.dropdown-menu .dropdown-item:hover {
+  background-color: #007bff;
+  color: white;
+}
+/* Main navbar styling */
+.navbar {
+  display: flex;
+  justify-content: space-between; /* Space between items */
+  align-items: center; /* Center items vertically */
+  padding: 10px 20px; /* Padding for the navbar */
+  background-color: black; /* Navbar background color */
+  width: 100%; /* Full width */
+}
+
+/* Styling for search bar */
+.searchbar input {
+  width: 300px; /* Adjust as needed */
+  height: 45px; /* Match button height */
+  border-radius: 25px; /* Rounded corners */
+  padding: 10px; /* Padding inside the input */
+  border: 1px solid #ccc; /* Border */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Shadow */
+  transition: border-color 0.3s ease, box-shadow 0.3s ease; /* Transition effects */
+  outline: none; /* Remove outline */
+}
+
+/* Focus state for search bar */
+.searchbar input:focus {
+  border-color: #007bff; /* Change border color on focus */
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2); /* Enhance shadow */
+}
+
+/* Dropdown buttons styling */
+.dropdown-center {
+  display: flex;
+  flex-direction: column; /* Align dropdown items vertically */
+}
+
+/* Adjust button styling if needed */
+.btn {
+  height: 45px; /* Ensure button height matches the search bar */
+  padding: 0 20px; /* Padding for button */
+  border-radius: 25px; /* Match rounded corners */
+}
